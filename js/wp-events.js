@@ -1,3 +1,4 @@
+console.log("hi!");
 // Get News and Announcements from DIT University API
 var ditNewsRequest = new XMLHttpRequest();
 
