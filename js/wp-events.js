@@ -2,7 +2,7 @@ console.log("hi!");
 // Get News and Announcements from DIT University API
 var ditNewsRequest = new XMLHttpRequest();
 
-ditNewsRequest.open('GET', 'http://gscditu.com/blog/?rest_route=/wp/v2/posts', true);
+ditNewsRequest.open('GET', 'https://gscditu.com/blog/?rest_route=/wp/v2/posts', true);
 ditNewsRequest.onload = function () {
 
     // Begin accessing JSON data here
