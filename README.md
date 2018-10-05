@@ -1,6 +1,6 @@
 # Google Students Community Website
 
-A prototype for GSC website by Shouvik Mitra
+The official website of Google Student Community, 2018
 
 ## Getting Started
 
