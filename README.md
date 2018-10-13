@@ -50,7 +50,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Shouvik Mitra** - *Initial work* - [iamshouvikmitra](https://github.com/iamshouvikmitra)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/gscdit/Official-Website/graphs/contributors) who participated in this project.
 
 ## License
 
