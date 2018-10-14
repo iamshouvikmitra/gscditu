@@ -58,4 +58,4 @@ This project is licensed under the MIT License - see the [License.md](License.md
 
 ## Acknowledgments
 
-* Thanks to awesome guys at [KeenThemes](keenthemes.com/) - to provide us with template used in this projects!
+* Thanks to awesome guys at [KeenThemes](https://keenthemes.com/) - to provide us with template used in this projects!
