@@ -40,7 +40,7 @@ If you wish the deploy the site on a live environment we suggest you upload all 
 
 ## Contributing
 
-[Under Development]Please read [CONTRIBUTING.md](#) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -50,7 +50,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Shouvik Mitra** - *Initial work* - [iamshouvikmitra](https://github.com/iamshouvikmitra)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/gscdit/Official-Website/graphs/contributors) who participated in this project.
 
 ## License
 
