@@ -22,16 +22,19 @@ ditNewsRequest.onload = function () {
                 document.getElementById('article_title_1').innerHTML = title;
                 document.getElementById('article_body_1').innerHTML = excerpt;
                 document.getElementById('article_image-1').src = imageurl;
+                document.getElementById('article_title_1').setAttribute('href',event.guid.rendered);
             }
             else if(count ===2){
                 document.getElementById('article_title_2').innerHTML = title;
                 document.getElementById('article_body_2').innerHTML = excerpt;
                 document.getElementById('article_image-2').src = imageurl;
+                document.getElementById('article_title_2').setAttribute('href',event.guid.rendered);
             }
             else{
                 document.getElementById('article_title_3').innerHTML = title;
                 document.getElementById('article_body_3').innerHTML = excerpt;
                 document.getElementById('article_image-3').src = imageurl;
+                document.getElementById('article_title_3').setAttribute('href',event.guid.rendered);
             }
 
             count++;
