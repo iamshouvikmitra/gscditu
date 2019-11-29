@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GSC Custom Wallpaper</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <p class="display-3">
+                Custom Wallpaper Builder
+            </p>
+            <hr>
+            <form action="./build.php" method="get">
+                <div>
+                    <label for="name">Enter GitHub Username:</label>
+                    <input type="text" name="name" class="form-control" placeholder="iamshouvikmitra"> <br>
+                    <input type="submit" class="btn btn-primary float-right" value="Create Wallpaper">
+                </div>
+            </form>
+        </div>
+        <div class="card text-center">
+            <div class="card-header">
+                Featured
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6 d-none d-lg-block">
+                        <blockquote class="imgur-embed-pub" lang="en" data-id="a/GxshQXI" data-context="false"><a href="//imgur.com/GxshQXI"></a></blockquote>
+                        <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="card-title">Build and Deploy Node.js Apps on the Cloud!</h5>
+                        <div class=" d-block d-sm-none">
+                            <img src="./event.jpeg" width="100%" alt="" srcset=""> <br>
+                        </div>
+                        <p class="card-text text-justify">Howdy DITains,
+                            Are you a 3rd year student frightened about requirements and portfolios?
+                            or <br>
+                            A student of 1st or 2nd year and want to learn about emerging technologies? <br>
+                            Don't worry, GSC is there to help you out! We are organizing a workshop on How to build and
+                            deploy <br>
+                            NODE.JS applications on cloud the workshop is association with MLH (Major league Hacking)
+                            <br>
+                            Entry is FREE OF COST
+                            <br>
+
+                            <b>Note: Bring your laptops fully charged.</b></p>
+                        <a href="https://goo.gl/forms/vUvkQUh03hsNfrGr1" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-footer text-muted">
+                <p id="time"></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var dateFuture = new Date(2019, 0, 25, 16, 0, 0);
+        var dateNow = new Date();
+
+        var seconds = Math.floor((dateFuture - (dateNow)) / 1000);
+        var minutes = Math.floor(seconds / 60);
+        var hours = Math.floor(minutes / 60);
+        var days = Math.floor(hours / 24);
+
+        hours = hours - (days * 24);
+        minutes = minutes - (days * 24 * 60) - (hours * 60);
+        seconds = seconds - (days * 24 * 60 * 60) - (hours * 60 * 60) - (minutes * 60);
+        document.getElementById('time').innerText = " Hurry! " + days + " days and "+ hours+" hours left.";
+    </script>
+</body>
+
+</html>
